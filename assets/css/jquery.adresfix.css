@@ -1,0 +1,35 @@
+.adresfix-suggest{
+	position: absolute;
+	width: 100%;
+	max-height: 250px;
+	box-shadow: 1px 2px 4px 2px #999;
+	overflow-y: auto;
+	list-style: none;
+	background: #fff;
+	z-index: 1;
+}
+.adresfix-suggest span{
+	padding: 10px;
+    font-weight: bold;
+    font-size: 15pt;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1px;
+    margin-left: 95%;
+}
+.adresfix-suggest li{
+	border-bottom: 1px solid #eee;
+	cursor: pointer;
+	padding: 10px;
+}
+.adresfix-suggest li:hover{
+	background: #eee;
+}
+.adresfix-form-group{
+	position: relative;
+}
+.map iframe{
+	width: 100%;
+	height: 400px;
+	margin-top: 32px;
+}
